@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jorgeandres.ejercicio3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Area de figura geometrica "
+        android:layout_gravity="center">
+    </TextView>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rarea">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cuadrado"
+            android:textSize="18dp"
+            android:id="@+id/rcuadrado"
+            android:layout_gravity="center_horizontal" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcirculo"
+            android:text="circulo"
+            android:textSize="18dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtriangulo"
+        android:text="triangulo"
+        android:textSize="18dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rrectangulo"
+        android:text="rectangulo"
+        android:textSize="18dp"/>
+
+
+    </RadioGroup>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="base"
+        android:id="@+id/rprimero"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="altura"
+        android:id="@+id/rsegundo"
+        android:layout_weight="0.00" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="radio"
+        android:id="@+id/rtercero"
+        android:layout_weight="0.00" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="lado"
+        android:id="@+id/rcuarto"
+        android:layout_weight="0.00" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Area"
+        android:id="@+id/rbu"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text=""
+        android:layout_gravity="center"
+        android:id="@+id/resul"/>
+</LinearLayout>
+
